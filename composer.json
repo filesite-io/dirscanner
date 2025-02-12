@@ -13,6 +13,11 @@
             "role": "Developer"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Filesite\\DirScanner\\": "src/"
+        }
+    },
     "require": {
         "php": ">=5.4"
     }
