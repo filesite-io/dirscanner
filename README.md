@@ -13,7 +13,7 @@ Or create your composer.json file with
 ```
 {
     "require": {
-        "filesite/dirscanner": "dev-main"
+        "filesite/dirscanner": "^1.0"
     }
 }
 ```
