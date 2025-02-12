@@ -22,6 +22,6 @@
         }
     },
     "scripts": {
-        "test": "@php vendor/filesite/dirscanner/tests/bootstrap.php"
+        "test": "@php tests/bootstrap.php"
     }
 }

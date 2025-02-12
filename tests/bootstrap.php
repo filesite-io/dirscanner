@@ -3,7 +3,9 @@ date_default_timezone_set('UTC');
 
 require __DIR__.'/../../../autoload.php';
 
-$scanner = new Filesite\DirScanner();
+use Filesite\DirScanner;
+
+$scanner = new DirScanner();
 $scanner->setWebRoot('dirscanner/');
 $rootDir = __DIR__ . '/../';
 $scanner->setRootDir($rootDir);
