@@ -9,6 +9,15 @@ Install the latest version with
 composer require filesite/dirscanner
 ```
 
+Or create your composer.json file with
+```
+{
+    "require": {
+        "filesite/dirscanner": "dev-main"
+    }
+}
+```
+
 
 ## Basic Usage
 

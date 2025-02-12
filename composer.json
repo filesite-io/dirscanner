@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Filesite\\DirScanner\\": "src/"
+            "Filesite": "src/"
         }
     },
     "require": {
