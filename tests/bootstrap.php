@@ -11,6 +11,12 @@ $rootDir = __DIR__ . '/../';
 $scanner->setRootDir($rootDir);
 
 echo "Default support file extensions:\n";
+//set supported file extensions
+$scanner->supportFileExtensions = [
+    'md',
+    'txt',
+    'php',
+];
 print_r($scanner->supportFileExtensions);
 
 $maxScanDeep = 3;
