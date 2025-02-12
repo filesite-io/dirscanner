@@ -1,5 +1,5 @@
 # DirScanner
-Dir and file scanner, a PHP implement of filesite.io.
+Directory and file scanner, a PHP implement of filesite.io.
 
 
 ## Installation
