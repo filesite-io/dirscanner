@@ -1,0 +1,19 @@
+{
+    "name": "filesite/dirscanner",
+    "type": "library",
+    "description": "Dir and file scanner, a PHP implement of filesite.io.",
+    "keywords": ["scanner","scandir"],
+    "homepage": "https://github.com/filesite-io/dirscanner",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "filesite-io",
+            "email": "machete@filesite.io",
+            "homepage": "http://filesite.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    }
+}
