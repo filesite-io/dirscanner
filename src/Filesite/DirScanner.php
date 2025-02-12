@@ -42,7 +42,7 @@ Class DirScanner {
     private $scanResults = array();                 //目录扫描结果
     private $tree = array();                        //目录扫描树形结构
 
-    protected $supportFileExtensions = array(            //支持的文件类型
+    public $supportFileExtensions = array(            //支持的文件类型
         'txt',     //纯文本
         'md',      //纯文本
         'url',     //快捷方式
@@ -696,7 +696,7 @@ Class DirScanner {
                     }
                 }else {
                     $pathinfo = pathinfo($realpath);
-                    $extension = strtolower($pathinfo['extension']);
+                    $extension = !empty($pathinfo['extension']) ? strtolower($pathinfo['extension']) : '';
                     if ( in_array($extension, $this->supportFileExtensions) ) {
                         if ($extension != 'txt') {
                             $branch = $this->getFileData($realpath);

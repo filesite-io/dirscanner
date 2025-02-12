@@ -10,7 +10,10 @@ $scanner->setWebRoot('dirscanner/');
 $rootDir = __DIR__ . '/../';
 $scanner->setRootDir($rootDir);
 
-$maxScanDeep = 1;
+echo "Default support file extensions:\n";
+print_r($scanner->supportFileExtensions);
+
+$maxScanDeep = 3;
 $dirTree = $scanner->scan($rootDir, $maxScanDeep);
 $scanResults = $scanner->getScanResults();
 
