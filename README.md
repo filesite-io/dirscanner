@@ -9,14 +9,8 @@ Install the latest version with
 composer require filesite/dirscanner
 ```
 
-Or create your composer.json file with
-```
-{
-    "require": {
-        "filesite/dirscanner": "^1.0"
-    }
-}
-```
+If you havn't install the composer, check their website:
+[PHP Composer](https://getcomposer.org/)
 
 
 ## Basic Usage
