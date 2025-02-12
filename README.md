@@ -24,7 +24,7 @@ Or create your composer.json file with
 ```
 <?php
 
-use Filesite;
+use Filesite\DirScanner;
 
 $scanner = new DirScanner();
 

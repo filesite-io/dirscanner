@@ -13,12 +13,15 @@
             "role": "Developer"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Filesite": "src/"
-        }
-    },
     "require": {
         "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Filesite\\": "src/Filesite"
+        }
+    },
+    "scripts": {
+        "test": "@php vendor/filesite/dirscanner/tests/bootstrap.php"
     }
 }

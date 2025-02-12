@@ -1,11 +1,11 @@
 <?php
 date_default_timezone_set('UTC');
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../../../autoload.php';
 
-$scanner = new DirScanner();
-$scanner->setWebRoot('src/');
-$rootDir = __DIR__ . '/../src/';
+$scanner = new Filesite\DirScanner();
+$scanner->setWebRoot('dirscanner/');
+$rootDir = __DIR__ . '/../';
 $scanner->setRootDir($rootDir);
 
 $maxScanDeep = 1;
