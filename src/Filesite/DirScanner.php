@@ -76,40 +76,6 @@ Class DirScanner {
         'mov',     //视频
     );
 
-    //暂未使用
-    /*
-    protected $maxReadFilesize = array(                  //默认每种文件读取内容最大大小
-        'txt' => 102400,          //纯文本
-        'md' => 5242880,          //纯文本
-        'url' => 20480,           //快捷方式
-        'jpg' => 512000,          //图片
-        'jpeg' => 512000,         //图片
-        'png' => 512000,          //图片
-        'webp' => 512000,         //图片
-        'gif' => 512000,          //图片
-        'ico' => 51200,           //图标
-        'mp3' => 10485760,        //音乐，10M
-        'mp4' => 104857600,       //视频，100M
-        'mov' => 104857600,       //视频，100M
-        'ts' => 10485760,         //视频，10M
-        'm3u8' => 10485760,       //视频，10M
-    );
-
-    protected $securedFileExtensions = array(            //开启Nginx防盗链的文件类型
-        'jpg',     //图片
-        'jpeg',    //图片
-        'png',     //图片
-        'webp',    //图片
-        'gif',     //图片
-        'ico',     //图标
-        'mp3',     //音乐
-        'mp4',     //视频
-        'mov',     //视频
-        'ts',      //视频
-        'm3u8',    //视频
-    );
-    */
-
     public $scanTimeCost = 0;                       //上一次目录扫描耗时，单位：毫秒
     public $isApi = false;                          //如果为API获取数据，则realpath只返回相对路径
 
