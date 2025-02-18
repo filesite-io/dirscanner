@@ -542,14 +542,14 @@ Class DirScanner {
         return $this->nginxSecret;
     }
 
-    //设置Nginx防盗链密钥
+    //设置用户IP
     public function setUserIp($userIp) {
         if (!empty($userIp) && is_string($userIp)) {
             $this->userIp = $userIp;
         }
     }
 
-    //获取Nginx防盗链密钥
+    //获取用户IP
     public function getUserIp() {
         return $this->userIp;
     }
